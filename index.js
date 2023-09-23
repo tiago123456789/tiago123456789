@@ -95,35 +95,39 @@ const takeScreenshoot = async (posts) => {
 }
 
 const start = async () => {
-    let posts = await getPostsDevTo(process.env.DEVTO_USERNAME)
-    posts = posts.filter((_, index) => {
-        return index < 1
-    }).map(item => {
-        return {
-            link: item.url || "",
-            title: item.title || ""
+    try {
+        let posts = await getPostsDevTo(process.env.DEVTO_USERNAME)
+        posts = posts.filter((_, index) => {
+            return index < 1
+        }).map(item => {
+            return {
+                link: item.url || "",
+                title: item.title || ""
+            }
+        })
+    
+        for (let index = 0; index < posts.length; index += 1) {
+            posts[index].qrcode = await generateQrcode(posts[index].link)
         }
-    })
-
-    for (let index = 0; index < posts.length; index += 1) {
-        posts[index].qrcode = await generateQrcode(posts[index].link)
+    
+        await takeScreenshoot(posts)
+        const sha = await getFileSha(process.env.FILE_TO_UPLOAD)
+        const buffer = fs.readFileSync(process.env.PATH_SCREENSHOOT)
+        let data = {
+            "message": "add new last article dev.to",
+            "content": buffer.toString("base64"),
+        }
+    
+        if (sha) {
+            data.sha = sha
+        }
+    
+        data = JSON.stringify(data)
+        await uploadFileToRepository(process.env.FILE_TO_UPLOAD, data)
+        console.log("FINISHED PROCESS TO TAKE SCREENSHOOT LAST POST DEV.TO")
+    } catch(error) {
+        console.log(error);
     }
-
-    await takeScreenshoot(posts)
-    const sha = await getFileSha(process.env.FILE_TO_UPLOAD)
-    const buffer = fs.readFileSync(process.env.PATH_SCREENSHOOT)
-    let data = {
-        "message": "add new last article dev.to",
-        "content": buffer.toString("base64"),
-    }
-
-    if (sha) {
-        data.sha = sha
-    }
-
-    data = JSON.stringify(data)
-    await uploadFileToRepository(process.env.FILE_TO_UPLOAD, data)
-    console.log("FINISHED PROCESS TO TAKE SCREENSHOOT LAST POST DEV.TO")
 }
 
 start();
