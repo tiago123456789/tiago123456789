@@ -23,6 +23,7 @@ jobs:
         echo "FILE_TO_UPLOAD='last-article-devto.png'" >> .env
         echo "GITHUB_TOKEN='{{ secrets.G_TOKEN }}'" >> .env
         echo "BROWSERLESS_TOKEN='{{ secrets.BROWSERLESS_TOKEN }}'" >> .env
+        cat .env
 
     - name: Execute script
       run: node index.js
