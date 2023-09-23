@@ -21,7 +21,7 @@ jobs:
         echo "GITHUB_REPOSITORY='tiago123456789'" >> .env
         echo "GITHUB_USERNAME='tiago123456789'" >> .env
         echo "FILE_TO_UPLOAD='last-article-devto.png'" >> .env
-        echo "{{ secrets.GITHUB_TOKEN }}" >> .env
+        echo "GITHUB_TOKEN='{{ secrets.G_TOKEN }}'" >> .env
 
     - name: Execute script
       run: node index.js
