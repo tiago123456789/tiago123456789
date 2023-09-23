@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-node@v2
 
     - name: Install packages
-      run: npm i
+      run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm i
 
     - name: Set envs
       run: |
