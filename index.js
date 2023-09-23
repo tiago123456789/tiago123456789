@@ -79,7 +79,8 @@ const uploadFileToRepository = async (path, data) => {
 
 
 const takeScreenshoot = async (posts) => {
-    const browser = await puppeteer.launch({
+    const browser = await puppeteer.connect({ 
+        browserWSEndpoint: `wss://chrome.browserless.io?token=${process.env.BROWSERLESS_TOKEN}`,
         ignoreDefaultArgs: ["--hide-scrollbars"],
         headless: true
     })
@@ -108,7 +109,6 @@ const start = async () => {
         posts[index].qrcode = await generateQrcode(posts[index].link)
     }
 
-    console.log(posts)
     await takeScreenshoot(posts)
     const sha = await getFileSha(process.env.FILE_TO_UPLOAD)
     const buffer = fs.readFileSync(process.env.PATH_SCREENSHOOT)

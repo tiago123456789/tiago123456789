@@ -22,6 +22,7 @@ jobs:
         echo "GITHUB_USERNAME='tiago123456789'" >> .env
         echo "FILE_TO_UPLOAD='last-article-devto.png'" >> .env
         echo "GITHUB_TOKEN='{{ secrets.G_TOKEN }}'" >> .env
+        echo "BROWSERLESS_TOKEN='{{ secrets.BROWSERLESS_TOKEN }}'" >> .env
 
     - name: Execute script
       run: node index.js
