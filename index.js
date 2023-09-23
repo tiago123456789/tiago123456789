@@ -47,7 +47,7 @@ const getFileSha = async (path) => {
             `https://api.github.com/repos/${process.env.GITHUB_USERNAME}/${process.env.GITHUB_REPOSITORY}/contents/${path}`,
             {
                 headers: {
-                    'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+                    'Authorization': `token ${process.env.G_TOKEN}`,
                 }
             }
         )
@@ -67,7 +67,7 @@ const uploadFileToRepository = async (path, data) => {
         method: 'put',
         url: `https://api.github.com/repos/${process.env.GITHUB_USERNAME}/${process.env.GITHUB_USERNAME}/contents/${path}`,
         headers: {
-            'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+            'Authorization': `token ${process.env.G_TOKEN}`,
             'Content-Type': 'application/json'
         },
         data: data

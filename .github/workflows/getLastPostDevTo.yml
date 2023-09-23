@@ -1,7 +1,7 @@
 name: "Generate screenshoot last post DEV.TO"
 on:
   schedule:
-  - cron: "*/50 * * * *"
+  - cron: "*/1 * * * *"
 
 jobs:
   takeScreenshoot:
@@ -21,9 +21,8 @@ jobs:
         echo "GITHUB_REPOSITORY='tiago123456789'" >> .env
         echo "GITHUB_USERNAME='tiago123456789'" >> .env
         echo "FILE_TO_UPLOAD='last-article-devto.png'" >> .env
-        echo "GITHUB_TOKEN='{{ secrets.G_TOKEN }}'" >> .env
+        echo "G_TOKEN='{{ secrets.G_TOKEN }}'" >> .env
         echo "BROWSERLESS_TOKEN='{{ secrets.BROWSERLESS_TOKEN }}'" >> .env
-        cat .env
 
     - name: Execute script
       run: node index.js
