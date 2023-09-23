@@ -94,7 +94,7 @@ const takeScreenshoot = async (posts) => {
 }
 
 const start = async () => {
-    let posts = await getPostsDevTo(process.env.USERNAME)
+    let posts = await getPostsDevTo(process.env.DEVTO_USERNAME)
     posts = posts.filter((_, index) => {
         return index < 1
     }).map(item => {
@@ -108,6 +108,7 @@ const start = async () => {
         posts[index].qrcode = await generateQrcode(posts[index].link)
     }
 
+    console.log(posts)
     await takeScreenshoot(posts)
     const sha = await getFileSha(process.env.FILE_TO_UPLOAD)
     const buffer = fs.readFileSync(process.env.PATH_SCREENSHOOT)
