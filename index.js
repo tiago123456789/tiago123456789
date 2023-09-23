@@ -82,7 +82,7 @@ const takeScreenshoot = async (posts) => {
     const browser = await puppeteer.connect({ 
         browserWSEndpoint: `wss://chrome.browserless.io?token=${process.env.BROWSERLESS_TOKEN}`,
         ignoreDefaultArgs: ["--hide-scrollbars"],
-        headless: true
+        headless: 'new'
     })
 
     const page = await browser.newPage()
@@ -98,7 +98,7 @@ const start = async () => {
     try {
         let posts = await getPostsDevTo(process.env.DEVTO_USERNAME)
         posts = posts.filter((_, index) => {
-            return index < 1
+            return index < 2
         }).map(item => {
             return {
                 link: item.url || "",
