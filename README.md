@@ -1,4 +1,4 @@
-## Hey 👋, Eu sou o Tiago rosa da costa!  
+## Hey 👋, I'm Tiago rosa da costa!  
   
 
 <a href="https://github.com/tiago123456789" target="_blank">
@@ -18,23 +18,55 @@
 
 
 ###    
-Sou desenvolvedor fullstack com mais de 5 anos de experiência trabalhando em aplicações web, tendo atuado em áreas como: backend, frontend e infraestrutura nas aplicações que trabalhei. Atualmente ajudando na definição da arquitetura para aplicações que trabalho e também devops.
-  
-  
 
-<br/>  
+I have been working for more than 5 years as a developer where I have consistently demonstrated my expertise in various aspects of software development and project management. Some key highlights include:
 
+- Performance Optimization: I successfully addressed performance issues in applications, implementing strategies that significantly improved overall efficiency.
+- Scalability Enhancement: I tackled scalability challenges head-on, devising solutions that ensured seamless application growth.
+- CI/CD Implementation: I introduced and integrated essential tools like Jenkins to establish robust CI/CD pipelines, streamlining development processes.
+- Technology Evaluation: Contributing to future projects, I played a pivotal role in proposing technologies based on factors such as market adoption, community support, and the ability to attract and retain skilled professionals.
+- SDLC Experience: With comprehensive experience in the Software Development Life Cycle (SDLC), I am well-versed in guiding projects from inception to completion.
+- API Integration: I seamlessly integrated applications with third-party APIs, enhancing overall functionality.
+- SAAS Development: I actively contributed to Software as a Service (SAAS) projects, leveraging my skills to create scalable and efficient solutions.
+- Multi-Tenancy Implementation: I developed applications with multi-tenancy, demonstrating a deep understanding of complex architectural concepts.
+- ETL Integration: I successfully created an application to integrate services, employing Extract, Transform, Load (ETL) processes for efficient data flow.
+- Internationalization Experience: I played a crucial role in internationalizing applications, ensuring adaptability across different languages.
+- Chatbot Development: I innovatively crafted a chatbot for WhatsApp, showcasing my versatility in emerging technologies.
+- Tech Leadership: As a Tech Lead, I effectively managed customer requirements, delegated tasks to the development team, and provided ongoing support.
+- Software Architecture Definition: I took on the responsibility of defining software architecture for projects, leveraging over 5 years of experience and considering crucial factors like budget, team expertise, and future scalability.
+- Technology Evaluation Skills: I possess the ability to critically analyze the pros and cons of various technology choices, ensuring optimal solutions for project needs.
+- Automation Proficiency: Leveraging tools like GitHub Actions, I automated tasks to streamline development workflows.
+- Team Collaboration: I am a dedicated team player, willing to go beyond my designated role to support colleagues and share knowledge, fostering a collaborative and innovative work culture.
+- Database Expertise: I am proficient in working with both SQL and NoSQL databases, adapting to diverse project requirements.
 
+## My top 10º projects:
+- https://github.com/tiago123456789/zap-easy
+- https://github.com/tiago123456789/my-screen-shoot
+- https://github.com/tiago123456789/converter-mp4-to-mp3-project
+- https://github.com/tiago123456789/scale-producer-and-consumer-sqs
+- https://github.com/tiago123456789/system_track_email
+- https://github.com/tiago123456789/junta-vagas 
+- Easy caption
+  - https://github.com/tiago123456789/easy-caption-video-frontend
+  - https://github.com/tiago123456789/easy-caption-video-api
+  - https://github.com/tiago123456789/easy-caption-video-lambdas
+- https://github.com/tiago123456789/challenge-define-sytem-architecture
+- Bot- discord
+  - https://github.com/tiago123456789/bot-discord
+  - https://github.com/tiago123456789/app-discord-bot
+- https://github.com/tiago123456789/tool-track-websession
 
-</td><td valign="top" width="50%">
-
-
-
-</td></tr></table>  
-
-<br/>  
-
-![Last posts Dev.to](https://raw.githubusercontent.com/tiago123456789/tiago123456789/main/last-article-devto.png)
+## Technologies I working: 
+- Backend Language: Node.js, Javascript, Typescript and Golang
+- Backend framework: Express.js and Nest.js
+- Frontend: React.js and Next.js
+- Database: Postgresql, Redis, Dynamodb and ElaticSearch
+- Cloud provider: AWS and DigitalOcean
+- Cloud services: 
+  - AWS: S3, SQS, EC2, SNS, SES, Lambda function, RDS, Dynamodb and CloudWatch.
+  - DigitalOcean: Droplet and kubernetes.
+- Task management: Clickup and Jira
+- Other tools: Github actions, Git, Github, pm2, docker, docker compose, websocket and New relic.
 
 <br/>
 
