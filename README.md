@@ -39,7 +39,7 @@ I have been working for more than 5 years as a developer where I have consistent
 - Team Collaboration: I am a dedicated team player, willing to go beyond my designated role to support colleagues and share knowledge, fostering a collaborative and innovative work culture.
 - Database Expertise: I am proficient in working with both SQL and NoSQL databases, adapting to diverse project requirements.
 
-## My top 10º projects:
+## Top 10 projects:
 - https://github.com/tiago123456789/zap-easy
 - https://github.com/tiago123456789/my-screen-shoot
 - https://github.com/tiago123456789/converter-mp4-to-mp3-project
@@ -56,7 +56,7 @@ I have been working for more than 5 years as a developer where I have consistent
   - https://github.com/tiago123456789/app-discord-bot
 - https://github.com/tiago123456789/tool-track-websession
 
-## Technologies I working: 
+## Technologies I Work With: 
 - Backend Language: Node.js, Javascript, Typescript and Golang
 - Backend framework: Express.js and Nest.js
 - Frontend: React.js and Next.js
