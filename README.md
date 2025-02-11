@@ -39,7 +39,7 @@ I have been working for more than 5 years as a developer where I have consistent
 - Team Collaboration: I am a dedicated team player, willing to go beyond my designated role to support colleagues and share knowledge, fostering a collaborative and innovative work culture.
 - Database Expertise: I am proficient in working with both SQL and NoSQL databases, adapting to diverse project requirements.
 
-## Top 11 projects:
+## Top 11 Node.js projects:
 - https://github.com/tiago123456789/zap-easy
 - https://github.com/tiago123456789/my-screen-shoot
 - https://github.com/tiago123456789/converter-mp4-to-mp3-project
@@ -57,17 +57,23 @@ I have been working for more than 5 years as a developer where I have consistent
   - https://github.com/tiago123456789/app-discord-bot
 - https://github.com/tiago123456789/tool-track-websession
 
+## Golang projects:
+- https://github.com/tiago123456789/my-own-faas-golang-platform
+- https://github.com/tiago123456789/api-rss-aggregator
+- https://github.com/tiago123456789/my-own-githubaction?tab=readme-ov-file
+
 ## Technologies I Work With: 
 - Backend Language: Node.js, Javascript, Typescript and Golang
-- Backend framework: Express.js and Nest.js
+- Backend framework: Express.js, Nest.js and Fiber
 - Frontend: React.js and Next.js
-- Database: Postgresql, Redis, Dynamodb and ElaticSearch
-- Cloud provider: AWS and DigitalOcean
+- Database: Postgresql, Redis, Dynamodb, BigQuery, Mongodb and ElaticSearch
+- Cloud provider: AWS, GCP and DigitalOcean
 - Cloud services: 
   - AWS: S3, SQS, EC2, SNS, SES, Lambda function, RDS, Dynamodb and CloudWatch.
+  - GPC: Cloud run, PUB/SUB, Cloud function, GCP scheduler and GCP storage
   - DigitalOcean: Droplet and kubernetes.
 - Task management: Clickup and Jira
-- Other tools: Github actions, Git, Github, pm2, docker, docker compose, websocket and New relic.
+- Other tools: Github actions, Terraform, Git, Github, pm2, docker, docker compose, websocket and New relic.
 
 <br/>
 
