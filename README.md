@@ -73,7 +73,7 @@ I have been working for more than 5 years as a developer where I have consistent
   - GPC: Cloud run, PUB/SUB, Cloud function, GCP scheduler and GCP storage
   - DigitalOcean: Droplet and kubernetes.
 - Task management: Clickup and Jira
-- Other tools: Github actions, Terraform, Git, Github, pm2, docker, docker compose, websocket and New relic.
+- Other tools: Github actions, Terraform, Jest(tools to create tests), Git, Github, pm2, docker, docker compose, websocket and New relic.
 
 <br/>
 
