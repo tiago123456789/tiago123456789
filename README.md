@@ -59,6 +59,7 @@ I have been working for more than 5 years as a developer where I have consistent
 
 ## Golang projects:
 - https://github.com/tiago123456789/my-own-faas-golang-platform
+- https://github.com/tiago123456789/nocode-api-golang
 - https://github.com/tiago123456789/api-rss-aggregator
 - https://github.com/tiago123456789/my-own-githubaction?tab=readme-ov-file
 
