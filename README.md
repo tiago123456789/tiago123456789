@@ -58,8 +58,9 @@ I have been working for more than 5 years as a developer where I have consistent
 - https://github.com/tiago123456789/tool-track-websession
 
 ## Golang projects:
-- https://github.com/tiago123456789/my-own-faas-golang-platform
-- https://github.com/tiago123456789/nocode-api-golang
+- https://github.com/tiago123456789/tqueue (My own message queue solution)
+- https://github.com/tiago123456789/my-own-faas-golang-platform (My Lambda fucntion platform)
+- https://github.com/tiago123456789/nocode-api-golang (Nocode api make simplify create api based Postgresql tables)
 - https://github.com/tiago123456789/api-rss-aggregator
 - https://github.com/tiago123456789/my-own-githubaction?tab=readme-ov-file
 
