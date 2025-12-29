@@ -40,6 +40,7 @@ I have been working for more than 5 years as a developer where I have consistent
 - Database Expertise: I am proficient in working with both SQL and NoSQL databases, adapting to diverse project requirements.
 
 ## Top 11 Node.js projects:
+- https://github.com/tiago123456789/mini-automatizator(N8N automation tool created by me)
 - https://github.com/tiago123456789/zap-easy
 - https://github.com/tiago123456789/my-screen-shoot
 - https://github.com/tiago123456789/converter-mp4-to-mp3-project
