@@ -39,6 +39,10 @@ I have been working for more than 5 years as a developer where I have consistent
 - Team Collaboration: I am a dedicated team player, willing to go beyond my designated role to support colleagues and share knowledge, fostering a collaborative and innovative work culture.
 - Database Expertise: I am proficient in working with both SQL and NoSQL databases, adapting to diverse project requirements.
 
+## Open source projects:
+- https://github.com/tiago123456789/simple-queue(HTTP message queue solution)
+- https://github.com/tiago123456789/holding-the-load(The project has focus to act as Shield where protect and manage load spikes effectively from Webhooks and allow your cheap VPS process it without crash.)
+
 ## Top 11 Node.js projects:
 - https://github.com/tiago123456789/mini-automatizator(N8N automation tool created by me)
 - https://github.com/tiago123456789/zap-easy
