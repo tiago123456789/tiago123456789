@@ -39,6 +39,22 @@ I have been working for more than 5 years as a developer where I have consistent
 - Team Collaboration: I am a dedicated team player, willing to go beyond my designated role to support colleagues and share knowledge, fostering a collaborative and innovative work culture.
 - Database Expertise: I am proficient in working with both SQL and NoSQL databases, adapting to diverse project requirements.
 
+## AI projects:
+- https://github.com/tiago123456789/my-py-ai-code-agent(MY OWN AI CODE AGENT)
+  - Tech stack: Python, OpenAI, Tools(execute actions like run scripts python, write, update or create files), Mcp server integration
+- https://github.com/tiago123456789/flow-requests(MY OWN N8N PLATFORM WHERE RUN 100% ON BROWSER. YOU CAN CREATE AUTOMATION AND AI AGENTS)
+  - Tech statck: Node.js, React.js, Next.js, Typescript, Langchain.js, Tools(execute action to create or update automation), Chatgpt LLM model, Assembly.AI(to make the AI agent understand instructions via audio), Deno, Docker, Render(https://render.com/), Postgresql.
+  - Extra points:
+    - The platform is using the concept Plugin architecture where allow you to create custom Nodes(custom code where make integration with something you need) and instal and uninstall on platform, so after install you can start to use the new Node on your automations or AI agents.
+    - The platform allow you to create your own TOOLS, MCP SERVERS and SKILLS and setup on platform without change any code.
+- https://github.com/tiago123456789/ai-agent-builder(AI AGENT BUILDER NO-CODE PLATFORM WHERE ALLOW YOU TO CREATE AGENTS FOR YOU COMPANY)
+  - Tech stack: Backend(Node.js, Typescript, Express.js, Postgresql, Langchain.js, Chatgpt, RAG(Postgresl), GUARDRAIL, TOOLS, MCP SERVERS and SKILLS)
+  - Extra points:
+    - The platform is using the concept Plugin architecture where allow you enable and disable different TOOLS, MCP SERVERS, SKILLS AND RAG for each agent created.
+    - The platform allow you to create your own TOOLS, MCP SERVERS and SKILLS and setup on platform without change any code.
+
+
+
 ## Open source projects:
 - https://github.com/tiago123456789/simple-queue => HTTP message queue solution
 - https://github.com/tiago123456789/holding-the-load => The project has focus to act as Shield where protect and manage load spikes effectively from Webhooks and allow your cheap VPS process it without crash.
